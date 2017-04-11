@@ -1,0 +1,89 @@
+<html>
+<head>
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+
+<body class="pageForm">
+
+  <h1 class="header">Resume</h1>
+
+
+  <div class="platForm">
+    <form name="information" action="">
+      First name:<br>
+      <input type="text" name="firstName" value="" size="40"><br><br>
+      Last name:<br>
+      <input type="text" name="lastName" value="" size="40"><br><br>
+      Address:<br>
+      <textarea rows="6" name="address" cols="40"> </textarea><br><br>
+      Phone number:<br>
+      <input type="text" name="phone" value="+662" size="30"><br><br>
+      Cell phone number:<br>
+      <input type="text" name="cellPhone" value="+66" size="30"><br><br>
+      Brithday (DD/MM/YYYY):<br>
+      <input type="text" name="brith_day" value="" size="2">
+      <input type="text" name="brith_month" value="" size="2">
+      <input type="text" name="brith_year" value="" size="4"><br><br>
+      Citizenship number:<br>
+      <input type="text" name="citizenshipNumber" value="" size="13"><br><br>
+
+      Zodiac Signs:
+      <select type="text" id ="zodiacSigns">
+        <option value="aries">Aries</option>
+        <option value="taurus">Taurus</option>
+        <option value="gemini">Gemini</option>
+        <option value="cancer">Cancer</option>
+        <option value="leo">Leo</option>
+        <option value="virgo">Virgo</option>
+        <option value="libra">Libra</option>
+        <option value="scorpio">Scorpio</option>
+        <option value="sagittarius">Sagittarius</option>
+        <option value="capricorn">Capricorn</option>
+        <option value="aquarius">Aquarius</option>
+        <option value="pisces">Pisces</option>
+      </select>
+      <br><br>
+      Zodiac Year:
+      <select type="text" id ="zodiacYear">
+        <option value="rat">Rat</option>
+        <option value="ox">Ox</option>
+        <option value="tiger">Tiger</option>
+        <option value="rabbit">Rabbit</option>
+        <option value="dragon">Dragon</option>
+        <option value="snake">Snake</option>
+        <option value="horse">Horse</option>
+        <option value="goat">Goat</option>
+        <option value="monkey">Monkey</option>
+        <option value="rooster">Rooster</option>
+        <option value="dog">Dog</option>
+        <option value="pig">Pig</option>
+      </select>
+      <br><br>
+      Birth Day of Week:
+      <select type="text" id = "brithdayOfWeek">
+        <option value="monday">Monday</option>
+        <option value="tuesday">Tuesday</option>
+        <option value="wednesday">Wednesday</option>
+        <option value="thursday">Thursday</option>
+        <option value="friday">Friday</option>
+        <option value="saturday">Saturday</option>
+        <option value="sunday">Sunday</option>
+      </select>
+      <br>
+      <br>
+</form>
+
+<div id="buttonNewEmployee">
+  <button type="button" onclick="saveFunction()">Save</button>
+  <button type="button" onclick="cleanFunction()">Cancle</button>
+  <button type="button" onclick="submit()">Submit</button>
+</div>
+
+<script src="myscript.js">
+</script>
+
+</div>
+
+</body>
+</html>
