@@ -1,0 +1,30 @@
+
+body{
+  background-image: url("img.gif");
+  /*background-color: black;*/
+}
+
+
+.platForm{
+  border: 1.5px solid none;
+  background-color: white;
+  font-size: 20;
+  margin-left:30%;
+  margin-right:30%;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:5%;
+  padding-bottom:10%;
+
+}
+.header{
+background-color: #A9E2F3;
+font-size: 40px;
+text-align: center;
+border: 2px solid black;
+line-height: 3em;
+
+}
+#buttonGroup{
+  text-align: center;
+  }﻿

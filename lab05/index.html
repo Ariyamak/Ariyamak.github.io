@@ -1,0 +1,123 @@
+<html>
+<head>
+  <title>Resume</title>
+  <link rel="stylesheet" type="text/css" href="CSS.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+</head>
+
+<body class="pageForm" >
+
+  <h1 class="header">Resume</h1>
+
+  <div id="div1"></div>
+
+  <div class="platForm" >
+
+    <form name="information" action="screen2.php" method = "post">
+      First name:<br>
+      <input type="text" name="firstName" value="" size="40"><br><br>
+      Last name:<br>
+      <input type="text" name="lastName" value="" size="40"><br><br>
+
+      Brithday :
+      <input type="date" id="datepicker" name="brith_day" value="">
+      <br><br>
+      Gender :
+      <input type="radio" name="gender" value="male" checked>male
+      <input type="radio" name="gender" value="female">female
+      <br><br>
+
+      Province:
+      <select type="text" name ="province">
+        <option value="bangkok">Bangkok</option>
+        <option value="chiangRai">Chiang Rai</option>
+        <option value="chiangMai">Chiang Mai</option>
+        <option value="nan">Nan</option>
+        <option value="phayao">Phayao</option>
+        <option value="phrae">Phrae</option>
+        <option value="mae Hong Son">Mae Hong Son</option>
+        <option value="lampang">Lampang</option>
+        <option value="lamphun">Lamphun</option>
+        <option value="uttaradit">Uttaradit</option>
+        <option value="kalasin">Kalasin</option>
+        <option value="khonKaen">Khon Kaen</option>
+        <option value="chaiyaphum">Chaiyaphum</option>
+        <option value="nakhonPhanom">Nakhon Phanom</option>
+        <option value="nakhonRatchasima">Nakhon Ratchasima</option>
+        <option value="buengKan">Bueng Kan</option>
+        <option value="buriRam">Buri Ram</option>
+        <option value="mahaSarakham">Maha Sarakham</option>
+        <option value="mukdahan">Mukdahan</option>
+        <option value="yasothon">Yasothon</option>
+        <option value="roiEt">Roi Et</option>
+        <option value="loei">Loei</option>
+        <option value="siSaKet">Si Sa Ket</option>
+        <option value="sakonNakhon">Sakon Nakhon</option>
+        <option value="surin">Surin</option>
+        <option value="nongKhai">Nong Khai</option>
+        <option value="nongBuaLamPhu">Nong Bua Lam Phu</option>
+        <option value="amnatCharoen">Amnat Charoen</option>
+        <option value="udonThani">Udon Thani</option>
+        <option value="ubonRatchathani">Ubon Ratchathani</option>
+        <option value="kamphaengPhet">Kamphaeng Phet</option>
+        <option value="chaiNat">Chai Nat</option>
+        <option value="nakhonNayok">Nakhon Nayok</option>
+        <option value="nakhonPathom">Nakhon Pathom</option>
+        <option value="nakhonSawan">Nakhon Sawan</option>
+        <option value="nonthaburi">Nonthaburi</option>
+        <option value="pathumThani">Pathum Thani</option>
+        <option value="phraNakhonSiAyutthaya">Phra Nakhon Si Ayutthaya</option>
+        <option value="phichit">Phichit</option>
+        <option value="phitsanulok">Phitsanulok</option>
+        <option value="lopBuri">Lop Buri</option>
+        <option value="samutPrakan">Samut Prakan</option>
+        <option value="samutSongkhram">Samut Songkhram</option>
+        <option value="samutSakhon">Samut Sakhon</option>
+        <option value="singBuri">Sing Buri</option>
+        <option value="sukhothai">Sukhothai</option>
+        <option value="suphanBuri">Suphan Buri</option>
+        <option value="saraburi">Saraburi</option>
+        <option value="angThong">Ang Thong</option>
+        <option value="uthaiThani">Uthai Thani</option>
+        <option value="chanthaburi">Chanthaburi</option>
+        <option value="chachoengsao">Chachoengsao</option>
+        <option value="chonBuri">Chon Buri</option>
+        <option value="trat">Trat</option>
+        <option value="prachinBuri">Prachin Buri</option>
+        <option value="rayong">Rayong</option>
+        <option value="saKaeo">Sa Kaeo</option>
+        <option value="kanchanaburi">Kanchanaburi</option>
+        <option value="tak">Tak</option>
+        <option value="prachuapKhiriKhan">Prachuap Khiri Khan</option>
+        <option value="phetchaburi">Phetchaburi</option>
+        <option value="ratchaburi">Ratchaburi</option>
+        <option value="Krabi">Krabi</option>
+        <option value="Chumphon">Chumphon</option>
+        <option value="Trang">Trang</option>
+        <option value="nakhonSiThammarat">Nakhon Si Thammarat</option>
+        <option value="narathiwat">Narathiwat</option>
+        <option value="pattani">Pattani</option>
+        <option value="phangnga">Phangnga</option>
+        <option value="phatthalung">Phatthalung</option>
+        <option value="phuket">Phuket</option>
+        <option value="yala">Yala</option>
+        <option value="ranong">Ranong</option>
+        <option value="songkhla">Songkhla</option>
+        <option value="satun">Satun</option>
+        <option value="suratThani">Surat Thani</option>
+      </select>
+      <br><br>
+      <button type ="submit" name="submit">Submit
+      <button type="button" onclick="cleanFunction()">Cancle</button>
+
+</form>
+
+</div>
+
+<script src="myscript.js">
+</script>
+
+</body>
+</html>
