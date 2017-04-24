@@ -1,0 +1,22 @@
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "mbus_database";
+
+$connect = mysqli_connect($servername,$username, $password,$dbname);
+
+$new_pass = $_POST["password"];
+$new_username = $_POST["username"];
+$sql_name = "INSERT INTO user(user.username,user.password)
+VALUES('new_username','$new_pass');"
+if (mysqli_query($connect, $sql_name)) {
+    // echo "Record updated successfully";
+    // $Ans_output = 'alert(การส่งข้อมูลสำเร็จ)';
+  } else {
+    // echo "Error updating record: " . mysqli_error($connect);
+  }
+
+  mysqli_close($connect);
+  // return $Ans_output;
+
+}
